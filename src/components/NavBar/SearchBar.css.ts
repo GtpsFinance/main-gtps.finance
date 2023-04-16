@@ -185,7 +185,7 @@ export const visible = style([
   sprinkles({
     visibility: 'hidden',
     opacity: '1',
-    height: '0',
+    height: 'full',
   }),
   {
     transition: `${visibilityTransition}`,
